@@ -20,6 +20,8 @@
       * lr_scheduler_type: linear
       * num_epochs: 10.0
 
+- The models have been benchmarked on Hi-NER, Naamapadam datasets and Dev, Test datasets in this annotated data.
+
 - Package Versions
 
     * Transformers 4.38.2
