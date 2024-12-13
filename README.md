@@ -35,11 +35,11 @@
     * Tokenizers 0.15.0
 
 - To use this dataset, cite the paper as
-
-      `@inproceedings{bahad-etal-2024-fine,
+```
+      @inproceedings{bahad-etal-2024-fine,
     	title = "Fine-tuning Pre-trained Named Entity Recognition Models For Indian Languages",
-    author = "Bahad, Sankalp  and
-      Mishra, Pruthwik  and
+    	author = "Bahad, Sankalp  and 
+    	Mishra, Pruthwik  and
       Krishnamurthy, Parameswari  and
       Sharma, Dipti",
     booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop)",
@@ -50,4 +50,4 @@
     url = "https://aclanthology.org/2024.naacl-srw.9",
     doi = "10.18653/v1/2024.naacl-srw.9",
     pages = "75--82",
-    }`
+    }```
