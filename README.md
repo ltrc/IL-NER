@@ -36,18 +36,12 @@
 
 - To use this dataset, cite the paper as
 
-      @inproceedings{bahad-etal-2024-fine,
-    title = "Fine-tuning Pre-trained Named Entity Recognition Models For {I}ndian Languages",
+      `@inproceedings{bahad-etal-2024-fine,
+    	title = "Fine-tuning Pre-trained Named Entity Recognition Models For Indian Languages",
     author = "Bahad, Sankalp  and
       Mishra, Pruthwik  and
       Krishnamurthy, Parameswari  and
       Sharma, Dipti",
-    editor = "Cao, Yang (Trista)  and
-      Papadimitriou, Isabel  and
-      Ovalle, Anaelia  and
-      Zampieri, Marcos  and
-      Ferraro, Francis  and
-      Swayamdipta, Swabha",
     booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop)",
     month = jun,
     year = "2024",
@@ -56,4 +50,4 @@
     url = "https://aclanthology.org/2024.naacl-srw.9",
     doi = "10.18653/v1/2024.naacl-srw.9",
     pages = "75--82",
-    }
+    }`
