@@ -1,8 +1,8 @@
 # IL-NER
 
-- This annotated corpora has been developed under the Bhashini project funded by Ministry of Electronics and Information Technology (MeitY), Government of India. We thank MeitY for funding this work. 
+- This annotated corpora and models have been developed under the Bhashini project funded by Ministry of Electronics and Information Technology (MeitY), Government of India. We thank MeitY for funding this work. 
 
-- This dataset is licensed under Creative Commons Attribution 4.0 (CC-BY-4.0) license. The details of the dataset are given below. This dataset was developed by three partnering institutes, IIIT Hyderabad, CDAC Noida, and IIIT Bhubaneshwar. 
+- This dataset and models are licensed under Creative Commons Attribution 4.0 (CC-BY-4.0) license. The details of the dataset are given below. This dataset was developed by three partnering institutes, IIIT Hyderabad, CDAC Noida, and IIIT Bhubaneshwar. 
 
 | Language | Train | Test | Dev |
 |----------|-------|------|-----|
@@ -10,7 +10,12 @@
 | Urdu     | 8720  | 1096 | 1094|
 | Odia     | 12109 | 1519 | 1517|
 | Telugu   | 2993  | 384  | 384 |
-
+- The models can be downloaded from the below huggingface repository under the Creative Commons Attribution 4.0 International (CC-BY-4.0). 
+  1. Urdu Model - https://huggingface.co/Sankalp-Bahad/Monolingual-Urdu-NER-Model
+  2. Odia Model - https://huggingface.co/Sankalp-Bahad/Monolingual-Odia-NER-Model
+  3. Odia Model - https://huggingface.co/Sankalp-Bahad/Monolingual-Telugu-NER-Model
+  4. Hindi Model - https://huggingface.co/Sankalp-Bahad/Monolingual-Hindi-NER-Model
+  5. Multilingual Model - https://huggingface.co/Sankalp-Bahad/Multilingual-NER-Model
 - The NER models have been developed by fine-tuning the XLM-Roberta-Base model on the annotated datasets. NER is modeled as a token classification task where a Softmax classifier is applied on the pooled layer of XLM-Roberta-base.
   - The following hyperparameters are used during training:
       * learning_rate: 5e-05
@@ -31,11 +36,24 @@
 
 - To use this dataset, cite the paper as
 
-      @misc{bahad2024finetuning,
-            title={Fine-tuning Pre-trained Named Entity Recognition Models For Indian Languages}, 
-            author={Sankalp Bahad and Pruthwik Mishra and Karunesh Arora and Rakesh Chandra Balabantaray and Dipti Misra Sharma and Parameswari Krishnamurthy},
-            year={2024},
-            eprint={2405.04829},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL}
-      }
+      @inproceedings{bahad-etal-2024-fine,
+    title = "Fine-tuning Pre-trained Named Entity Recognition Models For {I}ndian Languages",
+    author = "Bahad, Sankalp  and
+      Mishra, Pruthwik  and
+      Krishnamurthy, Parameswari  and
+      Sharma, Dipti",
+    editor = "Cao, Yang (Trista)  and
+      Papadimitriou, Isabel  and
+      Ovalle, Anaelia  and
+      Zampieri, Marcos  and
+      Ferraro, Francis  and
+      Swayamdipta, Swabha",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-srw.9",
+    doi = "10.18653/v1/2024.naacl-srw.9",
+    pages = "75--82",
+    }
