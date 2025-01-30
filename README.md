@@ -2,7 +2,7 @@
 
 - This annotated corpora and models have been developed under the Bhashini project funded by Ministry of Electronics and Information Technology (MeitY), Government of India. We thank MeitY for funding this work. 
 
-- This dataset and models are licensed under Creative Commons Attribution 4.0 (CC-BY-4.0) license. The details of the dataset are given below. This dataset was developed by three partnering institutes, IIIT Hyderabad, CDAC Noida, and IIIT Bhubaneshwar. 
+- This dataset and models are licensed under Creative Commons Attribution 4.0 (CC-BY-4.0) license. The details of the dataset are given below. This dataset was developed by three partnering institutes, IIIT Hyderabad, CDAC Noida, and IIIT Bhubaneshwar. The dataset can also be downloaded from HuggingFace using https://huggingface.co/datasets/Sankalp-Bahad/NER-Dataset link.
 
 | Language | Train | Test | Dev |
 |----------|-------|------|-----|
