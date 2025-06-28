@@ -1059,7 +1059,7 @@ UHC	O
 పెట్టుబడులు	O
 372	B-NEN
 బిలియన్ల	I-NEN
-అమెరికా	I-NEL
+అమెరికా	O
 డాలర్లకు	O
 చేరుకుంటుంది	O
 అని	O
@@ -1188,7 +1188,7 @@ UHC	O
 నుండి	O
 6	B-NEN
 బిలియన్‌	I-NEN
-అమెరికా	I-NEL
+అమెరికా	B-NEL
 డాలర్లు	O
 ఖర్చు	O
 చేస్తున్నట్లు	O
@@ -11592,7 +11592,7 @@ NULL	O
 3వ	I-NETI
 శతాబ్దందాకా	I-NETI
 )	O
-శాతవాహనుల	B-''
+శాతవాహనుల	O
 పాలన	O
 కొనసాగింది	O
 .	O
@@ -18081,7 +18081,7 @@ Service	O
 
 తనకు	O
 ఎయిర్‌	B-NEAR
-ఇండియా	I-NEL
+ఇండియా	I-NEAR
 విమానంలో	O
 కాకుండా	O
 వేరే	O
@@ -33264,7 +33264,7 @@ www.nationalunityawards.mha.gov.inలో	O
 గురించి	O
 మా	O
 వెబ్‌సైట్‌	O
-www.publicationsdivision.nic.inని	B-NEU
+www.publicationsdivision.nic.inని	O
 సందర్శించండి	O
 .	O
 
@@ -34766,7 +34766,7 @@ III	O
 
 దాన్ని	O
 ప్రపంచానికి	O
-గ్రోలే	B-doubt
+గ్రోలే	O
 శక్తి	O
 ఉంటే	O
 మరింత	O
